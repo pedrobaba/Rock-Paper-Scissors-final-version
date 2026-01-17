@@ -4,13 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rock-Paper-Scissors</title>
-  <link rel="stylesheet" href="styles/11-rock-paper-scissors.css">
+  <link rel="stylesheet" href="styles/10-rock-paper-scissors.css">
 </head>
 <body>
   <p class="title">Rock Paper Scissors</p>
   <button onclick="
    playGame('Rock');
-  " class="move-button js-rock-button"><img src="images/rock-emoji.png" class="move-icons"></button>
+  " class="move-button"><img src="images/rock-emoji.png" class="move-icons"></button>
 
   <button onclick="
    playGame('Paper');
@@ -33,13 +33,10 @@
    localStorage.removeItem('score');
    updateScoreElement();
   "; class="reset-score-button">Reset Button</button>
-  <button class="auto-play-button" onclick="
-   autoPlay();
-  ">Auto Play</button>
 
   <!-- <p class="ParagraphTwo"><a href="">Click here</a> to see the final version of the project.</p> -->
 
-  <script src="scripts/11-rock-paper-scissors.js">
+  <script src="scripts/10-rock-paper-scissors.js">
   
   </script>
 </body>
